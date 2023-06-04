@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container input {
+    width: 150px;
+    margin-left: 5px;
+    padding: 8px;
+    background-color: hsl(91, 83%, 88%);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    gap: 12px;
+    padding: 10px;
+}
+
+.btns button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+#equal {
+    background-color: rgb(255, 197, 90);
+    width: 70px;
+}
